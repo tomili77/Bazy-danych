@@ -34,3 +34,12 @@ values('MySQL. Vademecum profesjonalisty.', 'Paul DuBios', '2014-03-28', '978-83
 1216, 'Helion', 149.90);
 select* from book;
 
+alter table book modify column title varchar(128) not null;
+alter table book modify column author varchar(128) not null;
+alter table book modify column isbn varchar(32) not null;
+alter table book modify column publisher varchar(32) default 'nieznana';
+
+alter table book add column in_stock int default 0;
+desc book;
+
+
