@@ -144,7 +144,7 @@
       <tracking-columns>
         <columnNames value="" />
         <visible value="true" />
-        <editable value="false" />
+        <editable value="true" />
       </tracking-columns>
     </dataset-grid-settings>
     <dataset-editor-settings>
